@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "grafana-provisioning"
+  annotations:
+    grafana.com/gitsync-enabled: "true"
+    grafana.com/gitsync-environments: "test"
+spec:
+  type: service
+  owner: ruan:guest
+  lifecycle: experimental
